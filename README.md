@@ -13,7 +13,7 @@ Fixation prediction aims to simulate human visual selection mechanism and estima
 Use docker:
 ```commandline
 $ docker pull mangosss/rinet
-$ docker run  --gpus all  --shm-size 32G -it -v path_of_RINet:path_in_docker  --name RINet mangosss/rinet:v1.0 bash 
+$ docker run  --gpus all  --shm-size 8G -it -v path_of_RINet:path_in_docker  --name RINet mangosss/rinet:v1.0 bash 
 ```
 or create an anaconda environment:
 
