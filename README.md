@@ -10,17 +10,16 @@ Fixation prediction aims to simulate human visual selection mechanism and estima
 </p>
 
 ## Requirements
-Create  an anaconda environment:
+Use docker:
+```commandline
+$ docker pull mangosss/rinet
+$ docker run  --gpus all  --shm-size 32G -it -v path_of_RINet:path_in_docker  --name RINet mangosss/rinet:v1.0 bash 
+```
+or create an anaconda environment:
 
 ```commandline
 $ conda env create -f environment.yml
-```
-
-Activate the environment:
-
-```commandline
-$ source activate torch36
-$ <run_python_command> # see the examples below
+$ codna activate RINet
 ```
 
 ## Results Download
