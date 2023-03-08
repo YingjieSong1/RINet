@@ -5,5 +5,5 @@ Fixation prediction aims to simulate human visual selection mechanism and estima
 
 # Model architecture
 <p align="center">
-<img src="https://github.com/Mango321321/RINet/blob/main/image/network.pdf" width=40% height=40%>
+<img src="https://github.com/Mango321321/RINet/blob/main/image/network.pdf" width=100% height=100%>
 </p>
