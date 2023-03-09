@@ -27,6 +27,25 @@ Prediction results on **SALITON-Val**, **SALITON-Test**, **MIT300**, **PASCAL-S*
 
 Baidu Disk: <https://pan.baidu.com/s/1HfZNfNAsKqzJRAbX4WU7eA>  (password:`s216`)
 
+## Training
+
+The dataset directory structure should be 
+```
+└── Dataset  
+    ├── complexitys
+    ├── fixations
+    │   ├── test
+    │   ├── train
+    │   └── val
+    ├── images
+    │   ├── test
+    │   ├── train
+    │   └── val
+    └── maps
+        ├── train
+        └── val
+```
+
 ## Citation
         @ARTICLE{10054110,
                 author={Song, Yingjie and Liu, Zhi and Li, Gongyang and Zeng, Dan and Zhang, Tianhong and Xu, Lihua and Wang, Jijun},
