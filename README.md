@@ -23,7 +23,7 @@ $ codna activate RINet
 ```
 
 ## Results Download
-Prediction results on **SALITON-Test**, **MIT300**, **PASCAL-S**, **TORONTO**, and **DUT-OMRON** can be downloaded from:
+Prediction results on **SALITON-Val**, **SALITON-Test**, **MIT300**, **PASCAL-S**, **TORONTO**, and **DUT-OMRON** can be downloaded from:
 
 Baidu Disk: <https://pan.baidu.com/s/1HfZNfNAsKqzJRAbX4WU7eA>  (password:`s216`)
 
