@@ -25,13 +25,13 @@ $ conda activate RINet
 ## Results Download
 Prediction results on **SALITON-Val**, **SALITON-Test**, **MIT300**, **PASCAL-S**, **TORONTO**, and **DUT-OMRON** can be downloaded from:
 
-Baidu Disk: <https://pan.baidu.com/s/1waLyGAqrit66zG38qT7gBw>  (password:`xd5t`)
+Baidu Disk: <https://pan.baidu.com/s/1zO6uP8JnkPDfDByE_HaYbw>  (password:`brj2`)
 
 ## Testing
-Clone this repository and download the pretrained weights of RINet trained on SALICON dataset from this [link](https://pan.baidu.com/s/11fIpNuFX8LehwdFR_sWw_Q). 
+Clone this repository and download the pretrained weights of RINet trained on SALICON dataset from this [link](https://pan.baidu.com/s/18dYaqn-oQY62bOeNTXn6-A) (password:`i32m`). 
 Then just run the code using 
 ```bash
-$ python3 test.py --val_img_dir path/to/test/images --results_dir path/to/results --model_val_path path/to/saved/models
+$ python test.py --test_img_dir path/to/test/images --results_dir path/to/results --model_val_path path/to/saved/models
 ```
 
 ## Training
@@ -51,6 +51,12 @@ The dataset directory structure should be
     └── maps
         ├── train
         └── val
+```
+
+Run the following command to train 
+
+```bash
+$ python train.py --dataset_dir path/to/dataset 
 ```
 
 ## Citation
