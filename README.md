@@ -18,7 +18,7 @@ $ docker run  --gpus all  --shm-size 8G -it -v path_of_RINet:path_in_docker  --n
 or create an anaconda environment:
 
 ```commandline
-$ conda env create -f environment.yml
+$ conda env create -f environment.yaml
 $ conda activate RINet
 ```
 
@@ -26,6 +26,13 @@ $ conda activate RINet
 Prediction results on **SALITON-Val**, **SALITON-Test**, **MIT300**, **PASCAL-S**, **TORONTO**, and **DUT-OMRON** can be downloaded from:
 
 Baidu Disk: <https://pan.baidu.com/s/1waLyGAqrit66zG38qT7gBw>  (password:`xd5t`)
+
+## Testing
+Clone this repository and download the pretrained weights of RINet trained on SALICON dataset from this [link](https://pan.baidu.com/s/11fIpNuFX8LehwdFR_sWw_Q). 
+Then just run the code using 
+```bash
+$ python3 test.py --val_img_dir path/to/test/images --results_dir path/to/results --model_val_path path/to/saved/models
+```
 
 ## Training
 
