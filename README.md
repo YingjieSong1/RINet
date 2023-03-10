@@ -19,7 +19,7 @@ or create an anaconda environment:
 
 ```commandline
 $ conda env create -f environment.yml
-$ codna activate RINet
+$ conda activate RINet
 ```
 
 ## Results Download
