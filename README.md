@@ -35,7 +35,10 @@ $ python test.py --test_img_dir path/to/test/images --results_dir path/to/result
 ```
 
 ## Training
-
+Run the following command to generate the complexitys using 
+```bash
+$ python write_complexitys.py --dataset_dir path/to/dataset
+```
 The dataset directory structure should be 
 ```
 └── Dataset  
@@ -52,7 +55,6 @@ The dataset directory structure should be
         ├── train
         └── val
 ```
-
 Run the following command to train 
 
 ```bash
