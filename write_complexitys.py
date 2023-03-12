@@ -1,4 +1,5 @@
 from glob import glob
+import argparse
 import numpy as np
 import os
 from skimage.feature import peak_local_max
@@ -6,10 +7,15 @@ from PIL import Image
 import glob
 from tqdm import tqdm
 
-map_path_val=glob.glob(r'/home/data/salicon/maps/val/*.png')
-map_path_train=glob.glob(r'/home/data/salicon/maps/train/*.png')
+parser = argparse.ArgumentParser()
+
+parser.add_argument('--dataset_dir', type=str)
+args = parser.parse_args()
+
+map_path_val=glob.glob(os.path.join(args.dataset_dir,'maps/val/*.png'))
+map_path_train=glob.glob(os.path.join(args.dataset_dir,'maps/train/*.png'))
 map_paths=map_path_val+map_path_train
-txt_out_path='/home/data/salicon/complexitys/'
+txt_out_path=os.path.join(args.dataset_dir,'complexitys')
 
 os.makedirs(txt_out_path,exist_ok=True)
  
