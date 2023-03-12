@@ -9,7 +9,7 @@ from tqdm import tqdm
 map_path_val=glob.glob(r'/home/data/salicon/maps/val/*.png')
 map_path_train=glob.glob(r'/home/data/salicon/maps/train/*.png')
 map_paths=map_path_val+map_path_train
-txt_out_path='/home/data/salicon/test/complexitys/'
+txt_out_path='/home/data/salicon/complexitys/'
 
 os.makedirs(txt_out_path,exist_ok=True)
  
