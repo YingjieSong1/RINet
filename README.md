@@ -71,3 +71,5 @@ $ python train.py --dataset_dir path/to/dataset
                 number={},
                 pages={1-15},
                 doi={10.1109/TMM.2023.3249481}}
+## Acknowledgments
+Code largely benefits from [SimpleNet](https://github.com/samyak0210/saliency). 
