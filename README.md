@@ -31,7 +31,7 @@ Baidu Disk: <https://pan.baidu.com/s/1zO6uP8JnkPDfDByE_HaYbw>  (password:`brj2`)
 Clone this repository and download the pretrained weights of RINet trained on SALICON dataset from this [link](https://pan.baidu.com/s/18dYaqn-oQY62bOeNTXn6-A) (password:`i32m`). 
 Then just run the code using 
 ```bash
-$ python test.py --test_img_dir path/to/test/images --results_dir path/to/results --model_val_path path/to/saved/models
+$ python test.py --test_img_dir path/to/test/images --results_dir path/to/results --model_val_path path/to/saved/model
 ```
 
 ## Training
