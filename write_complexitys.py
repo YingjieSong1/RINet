@@ -6,8 +6,8 @@ from PIL import Image
 import glob
 from tqdm import tqdm
 
-map_path_val=glob.glob(r'/home/data/salicon/test/maps/val/*.png')
-map_path_train=glob.glob(r'/home/data/salicon/test/maps/train/*.png')
+map_path_val=glob.glob(r'/home/data/salicon/maps/val/*.png')
+map_path_train=glob.glob(r'/home/data/salicon/maps/train/*.png')
 map_paths=map_path_val+map_path_train
 txt_out_path='/home/data/salicon/test/complexitys/'
 
