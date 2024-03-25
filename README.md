@@ -63,13 +63,13 @@ $ python train.py --dataset_dir path/to/dataset
 
 ## Citation
         @ARTICLE{10054110,
-                author={Song, Yingjie and Liu, Zhi and Li, Gongyang and Zeng, Dan and Zhang, Tianhong and Xu, Lihua and Wang, Jijun},
-                journal={IEEE Transactions on Multimedia}, 
-                title={RINet: Relative Importance-Aware Network for Fixation Prediction}, 
-                year={2023},
-                volume={},
-                number={},
-                pages={1-15},
-                doi={10.1109/TMM.2023.3249481}}
+              author={Song, Yingjie and Liu, Zhi and Li, Gongyang and Zeng, Dan and Zhang, Tianhong and Xu, Lihua and Wang, Jijun},
+              journal={IEEE Transactions on Multimedia}, 
+              title={RINet: Relative Importance-Aware Network for Fixation Prediction}, 
+              year={2023},
+              volume={25},
+              number={},
+              pages={9263-9277},
+              doi={10.1109/TMM.2023.3249481}}
 ## Acknowledgments
 Code largely benefits from [SimpleNet](https://github.com/samyak0210/saliency). 
