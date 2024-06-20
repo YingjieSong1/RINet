@@ -28,7 +28,7 @@ Prediction results on **SALITON-Val**, **SALITON-Test**, **MIT300**, **PASCAL-S*
 Baidu Disk: <https://pan.baidu.com/s/1zO6uP8JnkPDfDByE_HaYbw>  (password:`brj2`)
 
 ## Testing
-Clone this repository and download the pretrained weights of RINet trained on SALICON dataset from this [link](https://pan.baidu.com/s/18dYaqn-oQY62bOeNTXn6-A) (password:`i32m`). 
+Clone this repository and download the pretrained weights of RINet trained on SALICON dataset from [link1](https://pan.baidu.com/s/18dYaqn-oQY62bOeNTXn6-A) (password:`i32m`) or [link1](https://drive.google.com/file/d/1MUj3M9-XM2gnC4DdsMTUXY9u1c5h1clJ/view?usp=sharing). 
 Then just run the code using 
 ```bash
 $ python test.py --test_img_dir path/to/test/images --results_dir path/to/results --model_val_path path/to/saved/model
